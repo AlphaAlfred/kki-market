@@ -30,13 +30,13 @@ Single-page E-commerce web application built with Laravel and Vue.js, using Tail
     npm run dev
     php artisan serve
     ```
-4. Default credentials
-   Admin:
+4. Default credentials<br>
+    Admin:
     ```
     username: admin@kki.market
     password: admin@kki.market
     ```
-   User:
+    User:
     ```
     username: user@kki.market
     password: user@kki.market
