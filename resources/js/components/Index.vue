@@ -3,10 +3,10 @@
         <div class="text-center hero-content">
             <div class="max-w-md">
                 <h1 class="text-5xl font-bold">
-                    <span id="typewriter"></span>Malwares.
-                    <span class="block">Get Money.</span>
+                    <span id="typewriter"></span>Safe.
+                    <span class="block">Protect yourself.</span>
                 </h1>
-                <p class="py-6">Best marketplace to trade malwares. We provide a secure platform to buy and sell malwares.</p>
+                <p class="py-6">Best marketplace for security enthusiasts. We provide a secure platform to buy and sell security products.</p>
                 <router-link v-if="isAuthenticated" to="/search" class="btn btn-primary btn-wide">Go to Products</router-link>
                 <router-link v-else to="/register" class="btn btn-primary btn-wide">Get Started</router-link>
             </div>
@@ -39,7 +39,7 @@ export default {
 
         onMounted(() => {
             const options = {
-                strings: ["Buy", "Sell"],
+                strings: ["Be", "Stay"],
                 typeSpeed: 250,
                 backSpeed: 150,
                 loop: true,

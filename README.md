@@ -1,4 +1,4 @@
-# kki-market
+# kki-market (HCI version)
 Single-page E-commerce web application built with Laravel and Vue.js, using Tailwind CSS and DaisyUI for a modern and responsive design.
 
 ## Tech Stack
@@ -21,7 +21,7 @@ Single-page E-commerce web application built with Laravel and Vue.js, using Tail
     composer install
     npm install
     ```
-2. Make a table called kki_db in your SQL and run
+2. Make a table called kki_db in your SQL (recommended to use XAMPP) and run
     ```
     php artisan migrate:fresh --seed
     ```
@@ -30,3 +30,15 @@ Single-page E-commerce web application built with Laravel and Vue.js, using Tail
     npm run dev
     php artisan serve
     ```
+4. Default credentials
+    Admin:
+    ```
+    username: admin@kki.market
+    password: admin@kki.market
+    ```
+    User:
+    ```
+    username: user@kki.market
+    password: user@kki.market
+    ```
+
