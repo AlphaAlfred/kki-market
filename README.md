@@ -31,12 +31,12 @@ Single-page E-commerce web application built with Laravel and Vue.js, using Tail
     php artisan serve
     ```
 4. Default credentials
-    Admin:
+   Admin:
     ```
     username: admin@kki.market
     password: admin@kki.market
     ```
-    User:
+   User:
     ```
     username: user@kki.market
     password: user@kki.market
