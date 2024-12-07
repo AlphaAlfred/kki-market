@@ -12,6 +12,7 @@
                 </div>
                 
                 <div v-if="isAuthenticated" class="flex items-center gap-2">
+                    <button class="btn btn-ghost">Help</button>
                     <router-link to="/cart" class="btn btn-ghost">
                         Cart
                         <div class="badge badge-primary">{{ cartCount }}</div>
